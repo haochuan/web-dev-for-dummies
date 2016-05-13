@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+</head>
+<body>
+    <input id="number" type="number">
+    <button id='generate'>Generate</button>
+    <button id='reset'>Reset</button>
+
+    <ul id="list"></ul>
+
+    <script>
+
+
+        $('#generate').click(function(e) {
+            var number = Number($('#number').val());
+            for (var i = 0; i < number; i++) {
+                var listElement = $("<li></li>").text("list " + (i + 1));
+                $('#list').append(listElement);
+            }
+        });
+
+        $('#reset').click(function(e) {
+            $('#list').empty();
+        });
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,356 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Javascript | Web Development Quick Introduction</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        <meta name="author" content="Haochuan">
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../backend/index.html" />
+    
+    
+    <link rel="prev" href="../frontend/css.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="2.3"
+        data-chapter-title="Javascript"
+        data-filepath="frontend/javascript.md"
+        data-basepath=".."
+        data-revision="Fri May 13 2016 14:38:10 GMT-0700 (PDT)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="generalConcept/index.html">
+            
+                
+                    <a href="../generalConcept/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        General Concepts
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="frontend/index.html">
+            
+                
+                    <a href="../frontend/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        Frontend
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="frontend/html.html">
+            
+                
+                    <a href="../frontend/html.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        HTML
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="frontend/css.html">
+            
+                
+                    <a href="../frontend/css.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        CSS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.3" data-path="frontend/javascript.html">
+            
+                
+                    <a href="../frontend/javascript.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        Javascript
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="backend/index.html">
+            
+                
+                    <a href="../backend/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        Backend
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="tips/index.html">
+            
+                
+                    <a href="../tips/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        Tips
+                    </a>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >Web Development Quick Introduction</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="add-javascript-to-html">Add Javascript to HTML</h1>
+<p>Suppose we have HTML, CSS, Javascript file like this:</p>
+<p><img src="../images/css1.png" alt="image"></p>
+<p>In HTML, add the following line in <code>&lt;head&gt;</code> or <code>&lt;body&gt;</code> to include the javascript file:</p>
+<pre><code>&lt;script src=&quot;main.js&quot;&gt;&lt;/script&gt;
+</code></pre><hr>
+<h1 id="javascript-basic">Javascript Basic</h1>
+<p>See <a href="http://www.w3schools.com/js/default.asp" target="_blank">W3C Javascript Tutorial</a> for more detail.</p>
+<hr>
+<h1 id="javascript-and-jquery">Javascript and jQuery</h1>
+<ul>
+<li>jQuery is a library written in Javascript</li>
+<li>jQuery has been optimized to perform many common scripting functions and it does so while using fewer lines of code</li>
+<li>Add jQuery to your HTML: <code>&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js&quot;&gt;&lt;/script&gt;</code></li>
+</ul>
+<hr>
+<h1 id="examples">Examples</h1>
+<ul>
+<li>Counter</li>
+</ul>
+<blockquote>
+<p>button html</p>
+<p>html click button run javascript</p>
+<p>javascript get html content</p>
+</blockquote>
+<pre><code>&lt;p&gt;0&lt;/p&gt;
+&lt;hr&gt;
+&lt;button id=&apos;increase&apos;&gt;Increase&lt;/button&gt;
+</code></pre><pre><code class="lang-js"><span class="hljs-comment">// Using plain Javascript</span>
+<span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;increase&apos;</span>).addEventListener(<span class="hljs-string">&apos;click&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">e</span>) </span>{
+    <span class="hljs-keyword">var</span> number = <span class="hljs-built_in">Number</span>(<span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;number&apos;</span>).innerHTML);
+    <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;number&apos;</span>).innerHTML = number + <span class="hljs-number">1</span>;
+}, <span class="hljs-literal">false</span>);
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-comment">// Using jQuery</span>
+$(<span class="hljs-string">&apos;#increase&apos;</span>).click(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">e</span>) </span>{
+    <span class="hljs-keyword">var</span> number = <span class="hljs-built_in">Number</span>($(<span class="hljs-string">&apos;#number&apos;</span>).html());
+    $(<span class="hljs-string">&apos;#number&apos;</span>).html(number + <span class="hljs-number">1</span>);
+});
+</code></pre>
+<ul>
+<li>Generate List</li>
+</ul>
+<blockquote>
+<p>javascript create html element</p>
+<p>javascript add new element to element</p>
+</blockquote>
+<pre><code>&lt;input id=&quot;number&quot; type=&quot;number&quot;&gt;
+&lt;button id=&apos;generate&apos;&gt;Generate&lt;/button&gt;
+&lt;button id=&apos;reset&apos;&gt;Reset&lt;/button&gt;
+
+&lt;ul id=&quot;list&quot;&gt;&lt;/ul&gt;
+</code></pre><pre><code class="lang-js"><span class="hljs-comment">// plain Javascript</span>
+<span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;generate&apos;</span>).addEventListener(<span class="hljs-string">&apos;click&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">e</span>) </span>{
+    <span class="hljs-keyword">var</span> number = <span class="hljs-built_in">Number</span>(<span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;number&apos;</span>).value);
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; number; i++) {
+        <span class="hljs-keyword">var</span> listElement = <span class="hljs-built_in">document</span>.createElement(<span class="hljs-string">&quot;li&quot;</span>);
+        <span class="hljs-keyword">var</span> text = <span class="hljs-built_in">document</span>.createTextNode(<span class="hljs-string">&quot;list &quot;</span> + (i + <span class="hljs-number">1</span>));
+        listElement.appendChild(text);
+        <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&quot;list&quot;</span>).appendChild(listElement);
+    }
+}, <span class="hljs-literal">false</span>);
+
+<span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;reset&apos;</span>).addEventListener(<span class="hljs-string">&apos;click&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">e</span>) </span>{
+    <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&quot;list&quot;</span>).innerHTML = <span class="hljs-string">&quot;&quot;</span>;
+}, <span class="hljs-literal">false</span>);
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-comment">// jQuery</span>
+$(<span class="hljs-string">&apos;#generate&apos;</span>).click(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">e</span>) </span>{
+    <span class="hljs-keyword">var</span> number = <span class="hljs-built_in">Number</span>($(<span class="hljs-string">&apos;#number&apos;</span>).val());
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; number; i++) {
+        <span class="hljs-keyword">var</span> listElement = $(<span class="hljs-string">&quot;&lt;li&gt;&lt;/li&gt;&quot;</span>).text(<span class="hljs-string">&quot;list &quot;</span> + (i + <span class="hljs-number">1</span>));
+        $(<span class="hljs-string">&apos;#list&apos;</span>).append(listElement);
+    }
+});
+
+$(<span class="hljs-string">&apos;#reset&apos;</span>).click(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">e</span>) </span>{
+    $(<span class="hljs-string">&apos;#list&apos;</span>).empty();
+});
+</code></pre>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../frontend/css.html" class="navigation navigation-prev " aria-label="Previous page: CSS"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../backend/index.html" class="navigation navigation-next " aria-label="Next page: Backend"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
