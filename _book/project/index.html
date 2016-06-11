@@ -1,0 +1,562 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Project | Web Development Quick Introduction</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        <meta name="author" content="Haochuan">
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../tips/index.html" />
+    
+    
+    <link rel="prev" href="../backend/index.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="4"
+        data-chapter-title="Project"
+        data-filepath="project/README.md"
+        data-basepath=".."
+        data-revision="Fri Jun 10 2016 21:41:24 GMT-0700 (PDT)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="generalConcept/index.html">
+            
+                
+                    <a href="../generalConcept/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        General Concepts
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="frontend/index.html">
+            
+                
+                    <a href="../frontend/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        Frontend
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="frontend/html.html">
+            
+                
+                    <a href="../frontend/html.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        HTML
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="frontend/css.html">
+            
+                
+                    <a href="../frontend/css.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        CSS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="frontend/javascript.html">
+            
+                
+                    <a href="../frontend/javascript.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        Javascript
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="backend/index.html">
+            
+                
+                    <a href="../backend/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        Backend
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="4" data-path="project/index.html">
+            
+                
+                    <a href="../project/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        Project
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="tips/index.html">
+            
+                
+                    <a href="../tips/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        Tips
+                    </a>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >Web Development Quick Introduction</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="how-to-write-server-and-api">How to write server and API</h1>
+<p>We are going to use <a href="http://expressjs.com/" target="_blank">express</a> as the framework for writing server in node.js.</p>
+<h3 id="setup">Setup</h3>
+<p>In the termianl, create a new directory, and then install the dependencies:</p>
+<pre><code>mkdir project
+cd project
+npm install express body-parser cors
+</code></pre><hr>
+<h3 id="basic-get-request-via-ajax">Basic GET request via AJAX</h3>
+<p>Create a new file called <code>server.js</code>, below is the start template of <code>server.js</code>, please also read the comment in the code:</p>
+<pre><code class="lang-js"><span class="hljs-comment">/*====================================
+=            Server Setup            =
+====================================*/</span>
+<span class="hljs-comment">/**
+*
+* You do not need to care anything here
+*
+*/</span>
+<span class="hljs-keyword">var</span> express = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;express&apos;</span>);
+<span class="hljs-keyword">var</span> bodyParser = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;body-parser&apos;</span>);
+
+<span class="hljs-keyword">var</span> app = express();
+
+app.use(<span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;cors&apos;</span>)());
+
+<span class="hljs-comment">// Parse application/json</span>
+app.use(bodyParser.json());
+
+
+<span class="hljs-keyword">var</span> router = express.Router({
+    caseSensitive: app.get(<span class="hljs-string">&apos;case sensitive routing&apos;</span>),
+    strict: app.get(<span class="hljs-string">&apos;strict routing&apos;</span>)
+});
+
+app.use(router);
+
+<span class="hljs-comment">// this is a line to run a server on port 3000</span>
+<span class="hljs-keyword">var</span> server = app.listen(<span class="hljs-number">3000</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-comment">// if the server is running successfully, you will see this in terminal</span>
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;server listening at port 3000&apos;</span>);
+});
+
+
+<span class="hljs-comment">/*=====  End of Server Setup  ======*/</span>
+
+<span class="hljs-comment">/*==============================
+=            Routes            =
+==============================*/</span>
+<span class="hljs-comment">/**
+*
+* You need to change somehting below
+*
+*/</span>
+
+
+
+<span class="hljs-comment">/*=====  End of Routes  ======*/</span>
+
+router.get(<span class="hljs-string">&apos;/&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req, res</span>) </span>{
+    res.send(<span class="hljs-string">&apos;Hello&apos;</span>);
+});
+</code></pre>
+<p>Now in the terminal, type <code>node server.js</code> to run the server, you will see <code>server listening at port 3000</code> when it runs successfully.</p>
+<p>In the browser, enter <code>localhost:3000/</code>, you will see <code>Hello</code> in the browser, let&apos;s figure out why.</p>
+<p>In the code:</p>
+<pre><code class="lang-js">router.get(<span class="hljs-string">&apos;/&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req, res</span>) </span>{
+    res.send(<span class="hljs-string">&apos;Hello&apos;</span>);
+});
+</code></pre>
+<p>If the server receives a <code>GET</code> request in path <code>/</code>, the <code>res</code> which means response will pass the string <code>Hello</code> to the client. So in your browser, the path you hit is <code>/</code>, so that&apos;s why you see <code>Hello</code> in the browser. </p>
+<p>Basically you just wrote a very simple server serve a simple API, all of the website and apps are running based on a variery of differet APIs, generally we call the path of the an API (in this case it&apos;s <code>localhost:3000/</code>, a server running on your localhost on port 3000) as the <code>endpoint</code>.</p>
+<p>Now we have a very basic server running on localhost, let&apos;s see how to make a request to the endpoint from client via Javascript.</p>
+<p>This is a index.html page for the client:</p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+    &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;button id=&quot;myButton&quot;&gt;Button&lt;/button&gt;
+    &lt;p id=&quot;content&quot;&gt;&lt;/p&gt;
+    &lt;script&gt;
+        $(&apos;#myButton&apos;).click(function(e) {
+            console.log(&quot;clicked&quot;);
+        });
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre><p>In the page, there is a button (with <code>myButton</code> as its id), and an empty <code>&lt;p&gt;</code>. Currently if you click the button, it only prints &quot;clicked&quot; to the console. What we want to do is after clicking the button, we will make a call to the API and then display the content we get from the API into the <code>&lt;p&gt;</code> element in the HTML.</p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+    &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;button id=&quot;myButton&quot;&gt;Button&lt;/button&gt;
+    &lt;p id=&quot;content&quot;&gt;&lt;/p&gt;
+    &lt;script&gt;
+        $(&apos;#myButton&apos;).click(function(e) {
+            $.ajax({
+                method: &apos;GET&apos;,
+                url: &apos;http://localhost:3000/&apos;,
+                success: function(response) {
+                    $(&apos;#content&apos;).text(response);
+                }
+            });
+        });
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre><p>Now try that again you will see the result.</p>
+<p>We are using AJAX to make calls to server. In the object passed to the ajax, <code>method: &apos;GET&apos;</code> means you are making a <code>GET</code> request (remember that in the server the endpoint is also <code>GET</code>:<code>router.get</code>). There are a lot of request types, but do remember two of the most important ones: <code>GET</code> and <code>POST</code>. The <code>url: &apos;http://localhost:3000/</code> means the path/URL for the API. The <code>success: function(response)</code> is a function which will be called if the AJAX request has been made successfully. There is a parameter in the function called &apos;response&apos;, which will be the content you got from the server.</p>
+<hr>
+<h3 id="request-parameters">Request parameters</h3>
+<p>Now we can make a call to the server and get some data back, but in the example above, we are only getting data from the server instead of passing data to the server, so how can we pass somthing to the server?</p>
+<p>Before the code example, you do need to know the following:</p>
+<p>Suppose we have the URL like this: <code>http://localhost:3000/one/two?name=haochuan&amp;wechatID=12345</code></p>
+<p>The <code>one</code>, <code>two</code> in the URL are the path parameters in the URL, <code>name</code> and <code>wechatID</code> are the query parameters in the URL. Path parameters are seperated by <code>/</code> while query parameters are seperated by <code>&amp;</code> and staring with <code>?</code>.</p>
+<p>Remember that in the node server, we have the function <code>router.get(&apos;/&apos;, function (req, res) {})</code>, the <code>req</code> in that function is the request object from the client, and the <code>res</code> is the response you will send to the client from the server. The way to get path and query parameters from the server will be like the following:</p>
+<pre><code>// URL is http://localhost:3000/one/two?name=haochuan&amp;wechatID=12345
+// note that how to define the path parameter in the function below (use &quot;:&quot;)
+router.get(&apos;/:firstPathParameter/:secondPathParameter&apos;, function (req, res) {
+    // req.params.firstPathParameter will be: one (string)
+    // req.params.firstPathParameter will be: two (string)
+    // req.query.name will be: haochuan (string)
+    // req.query.wechatID will be: 12345 (string)
+});
+</code></pre><p>Let&apos;s see the following exmaple, the client will send a request to <code>http://localhost:3000/sum/1/2?third=3</code>. In the URL, the first and second path parameter are &quot;1&quot; and &quot;2&quot;, the first query parameter <code>third</code> is &quot;3&quot;, Here is the new server side code:</p>
+<pre><code>/*====================================
+=            Server Setup            =
+====================================*/
+/**
+*
+* You do not need to care anything here
+*
+*/
+var express = require(&apos;express&apos;);
+var bodyParser = require(&apos;body-parser&apos;);
+
+var app = express();
+
+app.use(require(&apos;cors&apos;)());
+
+// Parse application/json
+app.use(bodyParser.json());
+
+
+var router = express.Router({
+    caseSensitive: app.get(&apos;case sensitive routing&apos;),
+    strict: app.get(&apos;strict routing&apos;)
+});
+
+app.use(router);
+
+var server = app.listen(3000, function() {
+    console.log(&apos;server listening at port 3000&apos;);
+});
+
+
+/*=====  End of Server Setup  ======*/
+
+/*==============================
+=            Routes            =
+==============================*/
+/**
+*
+* You need to change somehting below
+*
+*/
+
+
+
+/*=====  End of Routes  ======*/
+
+router.get(&apos;/&apos;, function (req, res) {
+    res.send(&apos;Hello&apos;);
+});
+
+router.get(&apos;/sum/:firstNum/:secondNum&apos;, function (req, res) {
+   var firstNumber = Number(req.params.firstNum) ;
+   var secondNumber = Number(req.params.secondNum);
+   var thirdNumber = Number(req.query.third);
+   var result = &quot;The sum of there number are: &quot; + (firstNumber + secondNumber + thirdNumber);
+   res.send(result);
+});
+</code></pre><p>In the code above, we passed two path parameters and one query parameters to the server, and the server will return the sum of those three numbers. Note that all the parameter passed by URL is a STRING, so we use <code>Number(string)</code> to convert the string into a number.</p>
+<p>Now when you change the <code>url</code> in the ajax call of the HTML client file from &apos;<a href="http://localhost:3000/" target="_blank">http://localhost:3000/</a>&apos; to &apos;<a href="http://localhost:3000/sum/5/6?third=8" target="_blank">http://localhost:3000/sum/5/6?third=8</a>&apos;, see what will happen.</p>
+<p>So now we are able to pass some data from client to the server, the based on those data, the server can do something and send the data back to the client.</p>
+<hr>
+<h3 id="basic-post-request-via-ajax">Basic POST request via AJAX</h3>
+<p>Let&apos;s take a look at the <code>POST</code> request. I would say the <code>POST</code> request is very similar to the <code>GET</code> request in some ways cause I don&apos;t want to go too deeper for the details. Only one thing you de need to know is that in <code>POST</code> request, you can also pass the data from the client to the server in a <code>body</code> object besides the <code>path</code> and <code>query</code> parameters.</p>
+<p>Let&apos;s see the updated server side code first (note that how we will get the data from body):</p>
+<pre><code>router.post(&apos;/info&apos;, function (req, res) {
+    var name = req.body.name;
+    var wechatID = req.body.wechatID;
+    var result = &quot;Hello &quot; + name + &quot;, your wechatID is: &quot; + wechatID;
+    res.send(result);
+});
+</code></pre><p>And in the client side, we will change the ajax call to:</p>
+<pre><code>$.ajax({
+    method: &apos;POST&apos;,
+    url: &apos;http://localhost:3000/info&apos;,
+    contentType: &quot;application/json&quot;,
+    data: JSON.stringify({name: &quot;haochuan&quot;, wechatID: 12345}),
+    success: function(response) {
+        $(&apos;#content&apos;).text(response);
+    }
+});
+</code></pre><p>Note:</p>
+<ul>
+<li>We change the request type from <code>GET</code> to <code>POST</code></li>
+<li>Add one key <code>contentType: &quot;application/json&quot;</code>, to tell the server what format is the body data</li>
+<li>Add one key <code>data</code>, which will be the body data we send to the server. <code>{name: &quot;haochuan&quot;, wechatID: 12345}</code> is a Javascript object, but we want to change that to JSON cause we already set the format to JSON. <code>JSON.stringify()</code> is a native function to transform Javascript object into JSON.</li>
+</ul>
+<p>Now put the code together, see what will happen.</p>
+<hr>
+<h3 id="project-walkthrouhg">Project walkthrouhg</h3>
+<p>I think that&apos;s all you need to finish the project, except how to setup a mongodb on you localhost, and how to get/update/delete data from the database, but there is a lot stuff on the Internet for you to explore.</p>
+<p>Finally I will briefly talk something about the logic and the stucture of the project:</p>
+<h3 id="you-are-runnnig-a-mongodb-on-your-localhost">You are runnnig a mongodb on your localhost</h3>
+<p>The schema of the database would be:</p>
+<pre><code>{
+    id&quot; xxx
+    name: xxx,
+    wechatID: xxx,
+    birthday: xxx
+}
+</code></pre><h3 id="you-have-a-node-server-running-on-your-localhost-in-the-server-you-have-to-connect-to-the-mongodb-checkout-mongoose-instead-of-the-mongodb-driver-and-in-the-server-there-will-be-apis-like-the-following">You have a node server running on your localhost. In the server you have to connect to the mongodb, checkout <a href="http://mongoosejs.com/" target="_blank">mongoose</a> instead of the mongodb driver. And in the server there will be APIs like the following:</h3>
+<h5 id="get-records"><code>GET</code> /records</h5>
+<p>get all the records from the database, the URL will be <code>http://localhost:3000/records</code></p>
+<p>Response will be:</p>
+<pre><code>[
+    {
+        id&quot; 1
+        name: xxx,
+        wechatID: xxx,
+        birthday: xxx
+    },
+    {
+        id&quot; 2
+        name: xxx,
+        wechatID: xxx,
+        birthday: xxx
+    }
+    {
+        id&quot; 3
+        name: xxx,
+        wechatID: xxx,
+        birthday: xxx
+    }
+]
+</code></pre><h5 id="get-recordid"><code>GET</code> /record/:id</h5>
+<p>get one record based on the id</p>
+<p>If the URL is `<a href="http://localhost:3000/record/1" target="_blank">http://localhost:3000/record/1</a>, you will get:</p>
+<pre><code>{
+    id&quot; 1
+    name: xxx,
+    wechatID: xxx,
+    birthday: xxx
+}
+</code></pre><h5 id="post-recordid"><code>POST</code> /record/:id</h5>
+<p>Update a record based on the id, the data you want to update will be in the body via ajax</p>
+<h5 id="delete-recordid"><code>DELETE</code> /record/:id</h5>
+<p>Delete a record based on the id, note that the request type should be `DELETE&apos;</p>
+<p>Every time you do a change to the database, you will need to load all contents again via &quot;<code>GET</code> /records&quot; to refresh the data on the page.</p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../backend/index.html" class="navigation navigation-prev " aria-label="Previous page: Backend"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../tips/index.html" class="navigation navigation-next " aria-label="Next page: Tips"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
